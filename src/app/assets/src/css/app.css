@@ -1,0 +1,34 @@
+/* -------------------------------------------------- */
+/* base                                               */
+/* -------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+.body-content {
+    padding-top: 65px;
+    padding-bottom: 150px;
+}
+
+body > .container-fluid {
+    padding: 5px 15px 0;
+}
+
+/* -------------------------------------------------- */
+/* footer                                             */
+/* -------------------------------------------------- */
+.container-fluid .text-muted {
+    margin: 20px 0;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c1e22;
+    border-top: 1px solid #3e444c;
+    border-bottom: 1px solid #3e444c;
+}

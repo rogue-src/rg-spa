@@ -1,0 +1,43 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build:all",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "build:vendorjs",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "build:iejs",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "build:appjs",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "build:vendorcss",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "build:appcss",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        },
+        {
+            "taskName": "copy:fonts",
+            "isBuildCommand": true,
+            "showOutput": "always"
+        }
+    ]
+}
