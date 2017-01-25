@@ -1,6 +1,6 @@
 # rg-spa
 
-Just a Javascript/JQuery SPA application.
+Just a simple demo Javascript/JQuery SPA application.
 
 # Getting Started
 
