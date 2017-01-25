@@ -12,7 +12,7 @@ var routeService = (function ($) {
       // Enable hasbang prefix (!#).
       .setHashbang(false)
       // set the loading template
-      .setLoadingTemplate('<h2>The template is loading, be patient please!</h2>')
+      .setLoadingTemplate()
 
       // Build the routes.
       //add a route

@@ -3,6 +3,7 @@ var contactController = (function ($) {
     var initialize = function () {
 
         // Methods
+        $('.content-container').hide().fadeIn(750);
 
     };
 
