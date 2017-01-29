@@ -4,6 +4,7 @@ Just a simple demo Javascript/JQuery SPA application.
 
 # Whats Included?
 
+- Pre-configured Gulp build file including VSCode definitions.
 - Client side routing module with no dependencies.
 - Demo for loading and injecting a nested JSON array into a view.
 - Additional Bootstrap themes courtesy of [Bootswatch](http://www.bootswatch.com).
