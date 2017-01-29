@@ -110,7 +110,7 @@ var routeService = (function ($) {
           displayhashRoute();
         }
       })
-      
+
       .addRoute({
         url: "/user/:id",
         template: '<div class="container-fluid">' +
@@ -133,6 +133,19 @@ var routeService = (function ($) {
         }
       })
 
+      .addRoute({
+        url: "/json-array",
+        templateUrl: 'views/demo/json-array.html',
+        options: {
+          url: "/json-array"
+        },
+        callback: function (options) {
+          document.title = ('JSON Array');
+          jsonArrayController.initialize();
+          displayhashRoute();
+        }
+      })
+      
       // Listen for the hash changes.
       .listen();
 

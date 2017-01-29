@@ -1,0 +1,229 @@
+{
+    "environments": [
+        {
+            "name": "live",
+            "scopes": [
+                {
+                    "name": "scope1",
+                    "tiers": [
+                        {
+                            "name": "app",
+                            "servers": [
+                                {
+                                    "name": "app1",
+                                    "status": "online",
+                                    "objects": "12"
+                                },
+                                {
+                                    "name": "app2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "web",
+                            "servers": [
+                                {
+                                    "name": "web1",
+                                    "status": "online",
+                                    "objects": "5"
+                                },
+                                {
+                                    "name": "web2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scope2",
+                    "tiers": [
+                        {
+                            "name": "app",
+                            "servers": [
+                                {
+                                    "name": "app1",
+                                    "status": "online",
+                                    "objects": "7"
+                                },
+                                {
+                                    "name": "app2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "web",
+                            "servers": [
+                                {
+                                    "name": "web1",
+                                    "status": "online",
+                                    "objects": "3"
+                                },
+                                {
+                                    "name": "web2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "test",
+            "scopes": [
+                {
+                    "name": "scope1",
+                    "tiers": [
+                        {
+                            "name": "app",
+                            "servers": [
+                                {
+                                    "name": "app1",
+                                    "status": "online",
+                                    "objects": "12"
+                                },
+                                {
+                                    "name": "app2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "web",
+                            "servers": [
+                                {
+                                    "name": "web1",
+                                    "status": "online",
+                                    "objects": "5"
+                                },
+                                {
+                                    "name": "web2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scope2",
+                    "tiers": [
+                        {
+                            "name": "app",
+                            "servers": [
+                                {
+                                    "name": "app1",
+                                    "status": "online",
+                                    "objects": "7"
+                                },
+                                {
+                                    "name": "app2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "web",
+                            "servers": [
+                                {
+                                    "name": "web1",
+                                    "status": "online",
+                                    "objects": "3"
+                                },
+                                {
+                                    "name": "web2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "development",
+            "scopes": [
+                {
+                    "name": "scope1",
+                    "tiers": [
+                        {
+                            "name": "app",
+                            "servers": [
+                                {
+                                    "name": "app1",
+                                    "status": "online",
+                                    "objects": "12"
+                                },
+                                {
+                                    "name": "app2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "web",
+                            "servers": [
+                                {
+                                    "name": "web1",
+                                    "status": "online",
+                                    "objects": "5"
+                                },
+                                {
+                                    "name": "web2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "scope2",
+                    "tiers": [
+                        {
+                            "name": "app",
+                            "servers": [
+                                {
+                                    "name": "app1",
+                                    "status": "online",
+                                    "objects": "7"
+                                },
+                                {
+                                    "name": "app2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "web",
+                            "servers": [
+                                {
+                                    "name": "web1",
+                                    "status": "online",
+                                    "objects": "3"
+                                },
+                                {
+                                    "name": "web2",
+                                    "status": "offline",
+                                    "objects": "0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
