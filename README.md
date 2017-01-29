@@ -2,6 +2,12 @@
 
 Just a simple demo Javascript/JQuery SPA application.
 
+# Whats Included?
+
+- Client side routing module with no dependencies.
+- Demo for loading and injecting a nested JSON array into a view.
+- Additional Bootstrap themes courtesy of [Bootswatch](http://www.bootswatch.com).
+
 # Getting Started
 
 - Install Node dependencies -- npm install
